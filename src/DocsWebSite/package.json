@@ -1,0 +1,17 @@
+{
+  "name": "DocsWebSite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "docsify": "^4.11.6",
+    "docsify-pagination": "^2.6.0",
+    "gulp": "^4.0.2"
+  }
+}

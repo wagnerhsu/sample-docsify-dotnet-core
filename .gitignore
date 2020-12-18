@@ -17,3 +17,5 @@ dist
 *TSLintAnalysis.xml
 system.cachebuster.json 
 temporaryfiles
+.vscode/
+libs/
