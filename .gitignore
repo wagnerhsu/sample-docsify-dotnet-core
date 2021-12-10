@@ -19,3 +19,4 @@ system.cachebuster.json
 temporaryfiles
 .vscode/
 libs/
+.idea/
