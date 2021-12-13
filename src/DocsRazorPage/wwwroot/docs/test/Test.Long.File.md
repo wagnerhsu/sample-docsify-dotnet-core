@@ -1,21 +1,10 @@
-<div class="row">
-<div class="col-xl-2 text-wrap">
 
-- [Markdown.Capability Test中文中文中文中文中文中文](#markdowncapabilitytest)
-    - [emoji](#emoji)
-    - [Test Image loooooooooooooooong](#test-image)
-    - [Test Blockquote](#test-blockquote)
-    - [Test Table](#test-table)
-    - [Test List](#test-list)
-    - [Control image width](#control-image-width)
-    - [Code](#code)
-
-</div>
-<div class="col-xl-10">
 
 # Markdown.Capability.Test
 
 ## Relative path
+
+Relative path Test
 
 [SubTest](Test/SubTest/SubTest.md)
 
@@ -68,7 +57,7 @@
 - {":keycap_ten:", "🔟"},
 - {":no_entry:", "⛔"},
 
-## Test Image
+## Test Image图像Looooooooooooooooooooooooooooooooooooooooooog title
 
 The first line
 
@@ -126,8 +115,11 @@ public async Task<IActionResult> Login(string returnUrl = null)
 Get-Service -Display sh*
 ```
 
-</div>
-</div>
+```cpp
+void Function() {
+	
+}
+```
 
 
 

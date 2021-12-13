@@ -13,19 +13,19 @@
     <meta charset="UTF-8">
   
     <link rel="stylesheet" href="/libs/docsify/themes/vue.css">
-    <link rel="stylesheet" href="/libs/docsify-toc/toc.css">
+    @* <link rel="stylesheet" href="/libs/docsify-toc/toc.css"> *@
 
 </head>
 <body>
 <div id="app"></div>
 <script>
               window.$docsify = {
-                  loadSidebar: true,
-                  name: 'Docs Site',
-                  alias: {
-                      '/.*/_sidebar.md': '/_sidebar.md'
-                  },
-                  subMaxLevel: 3,
+                  loadSidebar: false,
+                  // name: 'Docs Site',
+                  // alias: {
+                  //     '/.*/_sidebar.md': '/_sidebar.md'
+                  // },
+                  // subMaxLevel: 3,
                   //coverpage: true,
                   themeColor: 'orangered',
                   autoHeader: true,
@@ -37,7 +37,7 @@
               }
     </script>
 <script src="~/libs/docsify/lib/docsify.min.js"></script>
-<script src="~/libs/docsify-toc/toc.js"></script>
+@* <script src="~/libs/docsify-toc/toc.js"></script> *@
 <script src="libs/docsify-copy-code/docsify-copy-code.min.js"></script>
 <script src="libs/docsify-back-to-top/docsify-back-to-top.min.js"></script>
 <script src="~/libs/prismjs/components/prism-csharp.min.js"></script>
