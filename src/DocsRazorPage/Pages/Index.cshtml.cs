@@ -14,6 +14,7 @@ public class IndexModel : PageModel
 
     public IActionResult OnGet()
     {
-        return RedirectToPage("Docs");
+        //return RedirectToPage("Docs");
+        return Page();
     }
 }

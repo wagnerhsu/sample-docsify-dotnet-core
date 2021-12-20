@@ -45,6 +45,16 @@ function copyDocsifyBackToTop() {
         .src("node_modules/docsify-back-to-top/dist/**/*")
         .pipe(gulp.dest("wwwroot/libs/docsify-back-to-top"))
 }
+function copyDocsifyPrism() {
+    return gulp
+        .src("node_modules/docsify-prism/dist/**/*")
+        .pipe(gulp.dest("wwwroot/libs/docsify-prism"))
+}
 
+function copyDocsifyScrollToTop() {
+    return gulp
+        .src("node_modules/docsify-scroll-to-top/dist/**/*")
+        .pipe(gulp.dest("wwwroot/libs/docsify-scroll-to-top"))
+}
 exports.default = gulp.series(copyDocsifyLib, copyDocsifyThemes, copyDocsifyToc, copyPrismThemes, copyPrismComponents, copyPrismPlugins,
-    copyDocsifyCopyCode,copyDocsifyBackToTop);
+    copyDocsifyCopyCode,copyDocsifyBackToTop, copyDocsifyPrism, copyDocsifyScrollToTop);
