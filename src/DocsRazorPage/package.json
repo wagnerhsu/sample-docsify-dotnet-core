@@ -1,0 +1,22 @@
+{
+  "name": "DocsRazorPage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docsify": "^4.12.1",
+    "docsify-back-to-top": "0.0.1",
+    "docsify-copy-code": "^2.1.1",
+    "docsify-prism": "^1.0.0",
+    "docsify-scroll-to-top": "^1.0.2",
+    "docsify-toc": "^1.0.2",
+    "gulp": "^4.0.2",
+    "prismjs": "^1.25.0"
+  }
+}
