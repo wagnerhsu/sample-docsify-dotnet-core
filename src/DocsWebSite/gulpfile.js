@@ -12,4 +12,16 @@ function copy_docsify_pagination() {
         .pipe(gulp.dest("wwwroot/libs/docsify-pagenation"))
 }
 
-exports.default = gulp.series(copy_docsify, copy_docsify_pagination);
+function copy_docsify_print() {
+    return gulp
+        .src("node_modules/docsify-print/dist/*.*")
+        .pipe(gulp.dest("wwwroot/libs/docsify-print"))
+}
+
+function copy_print_js() {
+    return gulp
+        .src("node_modules/print-js/dist/*.*")
+        .pipe(gulp.dest("wwwroot/libs/printjs"))
+}
+
+exports.default = gulp.series(copy_docsify, copy_docsify_pagination, copy_docsify_print, copy_print_js);

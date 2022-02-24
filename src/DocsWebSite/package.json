@@ -13,5 +13,9 @@
     "docsify": "^4.11.6",
     "docsify-pagination": "^2.6.0",
     "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "docsify-print": "^1.0.0-alpha.0",
+    "print-js": "^1.6.0"
   }
 }
