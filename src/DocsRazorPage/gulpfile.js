@@ -51,10 +51,21 @@ function copyDocsifyPrism() {
         .pipe(gulp.dest("wwwroot/libs/docsify-prism"))
 }
 
+function copy_docsify_toc() {
+    return gulp
+        .src("node_modules/docsify-toc/dist/*.*")
+        .pipe(gulp.dest("wwwroot/libs/docsify-toc"));
+}
+
+function copy_prismjs() {
+    return gulp
+        .src("node_modules/prismjs/**/*")
+        .pipe(gulp.dest("wwwroot/libs/prismjs"));
+}
 function copyDocsifyScrollToTop() {
     return gulp
         .src("node_modules/docsify-scroll-to-top/dist/**/*")
         .pipe(gulp.dest("wwwroot/libs/docsify-scroll-to-top"))
 }
 exports.default = gulp.series(copyDocsifyLib, copyDocsifyThemes, copyDocsifyToc, copyPrismThemes, copyPrismComponents, copyPrismPlugins,
-    copyDocsifyCopyCode,copyDocsifyBackToTop, copyDocsifyPrism, copyDocsifyScrollToTop);
+    copyDocsifyCopyCode, copyDocsifyBackToTop, copyDocsifyPrism, copy_docsify_toc, copy_prismjs, copyDocsifyScrollToTop);

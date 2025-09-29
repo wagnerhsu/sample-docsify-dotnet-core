@@ -10,12 +10,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "docsify": "^4.11.6",
+    "docsify": "^4.13.1",
     "docsify-pagination": "^2.6.0",
     "gulp": "^4.0.2"
   },
   "dependencies": {
+    "docsify-copy-code": "^3.0.2",
     "docsify-print": "^1.0.0-alpha.0",
-    "print-js": "^1.6.0"
+    "docsify-toc": "^1.1.0",
+    "print-js": "^1.6.0",
+    "prismjs": "^1.30.0"
   }
 }
